@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MensagemControle : MonoBehaviour {
 
@@ -16,34 +17,35 @@ public class MensagemControle : MonoBehaviour {
 		gameOver = false;
 		restart = false;
 		venceu = false;
-		gameOverTxt.text = "";
-		restartTxt.text = "";
-		venceuTxt.text = "";
+		gameOverTxt.text = "Game Over!";
+		restartTxt.text = "Pressione 'R' para recomeçar.";
+		venceuTxt.text = "Parabéns. Você venceu!";
 	}
 	
 	void Update () {
 		if (gameOver) {
-			restartTxt.text = "Pressione 'R' para Restart";
+			restartTxt.text = "Pressione 'R' para recomeçar.";
 			restart = true;
 		}
 		if (restart) {
 			if(Input.GetKeyDown(KeyCode.R))
 			{
-				Application.LoadLevel (Application.loadedLevel);
+				SceneManager.LoadScene ("Cena1");
+				//Application.LoadLevel (Application.loadedLevel);
 			}
 		}
 	}
 
 	public void GameOver()
 	{
-		gameOverTxt.text = "Game Over!!!!";
+		gameOverTxt.text = "Game Over!";
 		gameOver = true;
 	}
 
 	public void Venceu()
 	{
-		venceuTxt.text = "Voce Venceu!!!";
-		restartTxt.text = "Pressione 'R' para Restart";
+		venceuTxt.text = "Parabéns. Você venceu!";
+		restartTxt.text = "Pressione 'R' para recomeçar.";
 		restart = true;
 	}
 }
