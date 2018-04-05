@@ -1237,7 +1237,7 @@ MonoBehaviour:
   SinalVerde: {fileID: 1636282585}
   SinalVermelho: {fileID: 1875098993}
   SpawnBullet: {fileID: 1382542692}
-  Bullet: {fileID: 1218724039404034, guid: ace01a74e8e931840b0fe4e80e5f85d3, type: 2}
+  Bullet: {fileID: 1285079634479232, guid: ace01a74e8e931840b0fe4e80e5f85d3, type: 2}
   Velocidade: 0.2
   ForcaPulo: 1250
   viradoDireita: 1
@@ -1597,7 +1597,7 @@ GameObject:
   - component: {fileID: 416302236}
   - component: {fileID: 416302235}
   m_Layer: 0
-  m_Name: BG
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
