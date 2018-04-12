@@ -185,7 +185,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
-480c4ff1f49e0d35b832509215f0303c Assembly-CSharp.dll:.PlayerController
+1158ae15558811478f872a3da7db980e Assembly-CSharp.dll:.PlayerController
 06dacb5f80ef88591356ec07ae96097d Assembly-CSharp.dll:.MensagemControle
 08805e5ceb15bb9c1ee870da2f89036b Assembly-CSharp.dll:.BulletScript
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -284,3 +284,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+0e06e645360823a6b7a2bac7ace2bb5f Assembly-CSharp.dll:.GrenadeScript
